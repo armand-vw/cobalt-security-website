@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cobalt Security - Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="header-logo">
+        <i class="fa-solid fa-shield-halved"></i> Cobalt Security
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="burger-icon" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="why-us.html">Why Us</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>Connect With Dispatch & Support</h1>
+          <p>Need urgent security assistance, a system quote, or a confidential site audit? Our control room is active 24/7/365.</p>
+          <a href="tel:+27115550199" class="btn primary-btn"><i class="fa-solid fa-phone"></i> Call Emergency Hotline</a>
+        </div>
+        <div class="hero-image-wrapper">
+          <picture>
+            <source srcset="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" media="(min-width: 768px)">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=375&q=80" alt="Cobalt Security Office Building" class="responsive-img">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-split-section">
+      <div class="contact-split-container">
+        
+        <div class="contact-info-panel">
+          <h2>Direct Contacts</h2>
+          <p class="panel-desc">Reach out directly to our specialized divisions:</p>
+
+          <div class="info-line">
+            <i class="fa-solid fa-phone-flip info-icon"></i>
+            <div>
+              <strong>24/7 Control Room</strong><br>
+              <a href="tel:+27115550199">+27 (0) 11 555 0199</a>
+            </div>
+          </div>
+
+          <div class="info-line">
+            <i class="fa-solid fa-envelope info-icon"></i>
+            <div>
+              <strong>General & Sales Enquiries</strong><br>
+              <a href="mailto:info@cobaltsecurity.com">info@cobaltsecurity.com</a>
+            </div>
+          </div>
+
+          <div class="info-line">
+            <i class="fa-solid fa-headset info-icon"></i>
+            <div>
+              <strong>Technical Support</strong><br>
+              <a href="mailto:support@cobaltsecurity.com">support@cobaltsecurity.com</a>
+            </div>
+          </div>
+
+          <div class="info-line">
+            <i class="fa-solid fa-location-dot info-icon"></i>
+            <div>
+              <strong>Headquarters</strong><br>
+              45 Security Plaza, Johannesburg, South Africa
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-panel">
+          <h2>Request a Free Consultation</h2>
+          <form class="contact-form" action="contact.html" method="GET">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service...</option>
+                <option value="assessment">Security Assessment</option>
+                <option value="guarding">Onsite Guarding</option>
+                <option value="cctv">CCTV & Monitoring</option>
+                <option value="access">Access Control Solutions</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Details</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your facility or security needs..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary-btn submit-btn">Submit Request</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-container">
+        <blockquote class="quote-text">
+          Our rapid response units operate non-stop. Your security is managed with absolute precision.
+        </blockquote>
+        <p class="quote-author">- Cobalt Dispatch Center</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Copyright © Cobalt Security 2026. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
